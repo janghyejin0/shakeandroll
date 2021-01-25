@@ -59,8 +59,9 @@ function draw() {
   image(allImages[index],0,0,windowWidth,windowHeight);
   pop();
   
-  ambientLight(239,235,230);
-  directionalLight(80,80,80,0,0,-10);
+  ambientLight(200);
+  directionalLight(100,100,100,10,10,-10);
+  directionalLight(60,90,40,-10,-10,-100);
 
   
   push();
